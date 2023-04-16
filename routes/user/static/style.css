@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2d2a2a;
+}
+
+.home-container1 {
+    flex: 0 0 auto;
+    width: 1315px;
+    height: 770px;
+    display: flex;
+    margin-top: 0px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.home-image {
+    width: 615px;
+    height: 255px;
+    align-self: center;
+    object-fit: cover;
+}
+
+.home-text {
+    color: #f76209;
+    font-size: 1.3em;
+    align-self: center;
+}
+
+.home-textinput {
+    width: 300px;
+    height: 25px;
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.home-loginbutton {
+    color: #ffffff;
+    width: 183px;
+    height: 37px;
+    align-self: center;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #f78c04;
+}
+
+.home-text1 {
+    text-align: center;
+}
+
+.home-container2 {
+    width: 259px;
+    height: 59px;
+    display: flex;
+    align-self: center;
+    margin-top: 60px;
+    align-items: flex-start;
+}
+
+.home-text4 {
+    color: #ffffff;
+    align-self: center;
+}
+
+.home-link {
+    color: rgb(2, 178, 249);
+    align-self: center;
+    margin-left: 10px;
+}
+
+@media(max-width: 1200px) {
+    .home-container {
+        background-color: #363030;
+    }
+
+    .home-container1 {
+        width: 1055px;
+        height: 857px;
+        align-self: center;
+    }
+
+    .home-image {
+        top: 88px;
+        left: 329px;
+        width: 529px;
+        height: 381px;
+        position: absolute;
+    }
+
+    .home-text {
+        top: 430px;
+        left: 541px;
+        color: rgb(251, 126, 0);
+        position: absolute;
+        font-size: 1.3em;
+    }
+
+    .home-textinput {
+        top: 465px;
+        left: 447px;
+        color: #ff8600;
+        position: absolute;
+        border-radius: var(--dl-radius-radius-radius4);
+    }
+
+    .home-textinput1 {
+        top: 558px;
+        left: 445px;
+        position: absolute;
+    }
+
+    .home-loginbutton {
+        top: 655px;
+        left: 461px;
+        width: 216px;
+        position: absolute;
+        text-align: center;
+        border-radius: 200px;
+        background-color: rgb(247, 150, 0);
+    }
+
+    .home-text4 {
+        left: 454px;
+        color: var(--dl-color-gray-white);
+        bottom: 144px;
+        position: absolute;
+    }
+}

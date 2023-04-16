@@ -1,0 +1,40 @@
+body {
+    background-color: #2d2a2a;
+    color:white;
+}
+
+img {
+    max-height:30px;
+    max-width: 80px;
+}
+
+.welcome {
+    margin:50px;
+}
+
+h1 {
+    font-size:100px ;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+
+h2 {
+    height:100px;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    color: #f76209;
+    justify-content: center;
+}
+head {
+    justify-content: center;
+
+}
+h4 {
+    margin: 2rem 0rem 1rem;
+  }
+  
+button {
+    align-items: center;  
+}

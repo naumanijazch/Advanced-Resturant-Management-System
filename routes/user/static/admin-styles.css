@@ -1,0 +1,31 @@
+body {
+    background-color: #2d2a2a;
+    color:white;
+}
+
+.container-fluid, .navbar {
+    border-top:0;
+}
+
+img {
+    max-height:30px;
+    max-width: 80px;
+}
+ 
+.welcome {
+    margin:50px;
+}
+
+h1 {
+    font-size:100px ;
+    font-weight: bold;
+}
+
+h2 {
+    height:100px;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    color: #f76209;
+    
+}

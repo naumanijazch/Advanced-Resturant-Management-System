@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="place_order_style.css" rel="stylesheet" />
+    <script src="login.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="header">
+            ORDER SUMMARY    
+        </div>
+
+        <div>
+            <%= string %>
+
+        </div>
+
+        <div>
+            Please Select an option:
+        </div>
+
+        <div class="form-container">
+            <form action="/user/place_order/takeaway" method="post">
+                <button id="takeawaybutton" type="submit">
+                    TAKE AWAY
+                </button>
+            </form>
+
+            <form action="/user/place_order/delivery" method="post">
+                <button id="devbutton" type="submit">
+                    DELIVERY
+                </button>
+            </form>
+        </div>
+
+    </div>
+
+    
+</body>
+
+</html>
